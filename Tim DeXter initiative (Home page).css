@@ -1,0 +1,610 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+   
+
+}
+/*  ========================================== header ================================== */
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(./images/Untitled.png);
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+    
+}
+nav {
+    display: flex;
+    padding: 2% 6%;
+    align-items: center;
+    justify-content: space-between;
+}
+.links {
+    flex: 1;
+    text-align: right;
+}
+.links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    
+}
+a {
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: beige;
+}
+.links ul li::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    background: rgb(255, 0, 200);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.links ul li:hover::after {
+    width: 100%;
+}
+/* ================================== WE WElcome Different ========================== */
+.side-bar{
+    padding-bottom: 300px;
+    background-color:rgb(152, 17, 230);
+    margin-left: 0px;
+    padding-top: 220px;
+  
+}
+
+.side-bar a img{
+    margin-top: 20px;
+    width: 60px;
+    
+}
+
+.side-bar a:hover img{
+    rotate: 360deg;
+    transition: 1s;
+}
+
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 220px;
+}
+
+#phone__bg{
+    display: none;
+    justify-content: none;
+}
+
+#Timo_dex {
+    padding-top: 180px;
+    width: 1000px;
+    padding-left: 0px;
+}
+
+#phone-text{
+    display:none;
+}
+h2 {
+    color: rgb(29, 8, 87);
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* padding-lef: 200px;
+    padding-righ: 200px; */
+}
+.text {
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.text a {
+    text-decoration: none;
+    font-size: 30px;
+    border: 2px solid white;
+    border-radius: 15px;
+    background-color: rgb(8, 90, 122);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+.text a:hover {
+    border: 3px solid rgb(247, 0, 255);
+}
+.visit{
+     padding-top: 50px;
+    
+    
+}
+.intro {
+    padding-top: 30px;
+}
+/* =============================== About Tim DeXter Initiative ============================ */
+.more-info{
+    width: 100%;
+    background-image: url(./images/text\ background.png);
+    /* background-position: center; */
+    background-size: cover;
+    color: black;
+}
+.more-info h3{
+    padding-top: 70px;
+    padding-bottom: 20px;
+    color: black;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+
+}
+.more-info p{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+ 
+
+
+}
+.more-info #more {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+}
+.more-info p em {
+    color: black;
+}
+
+
+
+
+.comments_section {
+    display: flex;
+    justify-content: flex;
+    margin:0 70px;
+}
+
+.comments_section2 {
+    display: none;
+    justify-content: none;
+}
+.comments{
+    border: 5px solid plum;
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+ .comments h3{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: 40px;
+    padding-left: 20px;
+   
+ 
+}
+.comments p{
+    padding-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-block-start: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    
+}
+
+#form2 {
+    display: none;
+    justify-content: none;
+}
+
+
+#form {
+    box-shadow: 0  0 100px 10px rgba(0, 0, 0, 0.301);
+    background-color: rgba(240, 248, 255, 0.849);
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 20px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+   
+}
+
+#form h3{
+    text-align: center;
+}
+
+#form input {
+    width: 500px;
+    height: 50px;
+    margin: 10px 200px;
+    border-radius: 8px;
+    color: rgb(24, 18, 102);
+}
+
+#form textarea {
+    width: 500px;
+    height: 150px;
+    margin: 10px 200px;
+    border-radius: 8px;
+    color: rgb(24, 18, 102);
+   
+}
+
+#form .btn{
+    background-color: cornflowerblue;
+    width: 200px;
+    height: 50px;
+    margin: 0 360px;
+    border-radius: 8px;
+    border: 2px solid cyan;
+}
+
+#form .btn:hover {
+    box-shadow: 0  0 6px 4px rgba(14, 177, 206, 0.301);
+}
+
+
+/* ====================================== Services we offer ======================================= */
+.services2{
+    display: none;
+    justify-content: none;
+}
+
+.services {
+    display:flex;
+    justify-content: space-between;
+    margin: 50px ;
+}
+
+.services b{
+    font-weight: lighter;
+    font-size: 28px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* color: black; */
+}
+
+.services a{
+    font-size: 16px;
+}
+
+#services__heading{
+    font-weight: lighter;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+
+
+#card1 {
+    color: white;
+    border-radius: 10px;
+    background-color: crimson;
+    margin-right: 10px;
+    padding: 40px;
+} 
+#card1:hover{ box-shadow: 0  0 6px 4px rgba(0, 0, 0, 0.301);transition: 0.7s;}
+#card1 b{ color: rgb(24, 5, 105);}
+
+#card2 { color: white;
+    border-radius: 10px;
+    background-color: orangered;
+    margin-right: 10px;
+    padding: 40px;
+} 
+
+#card2:hover{ box-shadow: 0  0 6px 4px rgba(0, 0, 0, 0.301);transition: 0.7s;}
+#card2 b{ color: rgb(165, 64, 5);}
+
+#card3 {
+    color: white;
+    border-radius: 10px;
+    background-color: skyblue;
+    margin-right: 10px;
+    padding: 40px;
+} 
+#card3:hover{ box-shadow: 0  0 6px 4px rgba(0, 0, 0, 0.301);transition: 0.7s;}
+#card3 b{ color: blueviolet;}
+
+#card4 {
+    color: white;
+    border-radius: 10px;
+    background-color: blueviolet;
+    margin-right: 10px;
+    padding: 40px;
+} 
+#card4:hover{ box-shadow: 0  0 6px 4px rgba(0, 0, 0, 0.301); transition: 0.7s;}
+/* ===========================       COPY RIGHT     =================================================== */
+.footer {
+    background-color: rgba(146, 140, 140, 0.555);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.footer h1 {
+    font-size: 50px;
+    color: white;
+    font-family: monospace;
+    font-weight: lighter;
+}
+.footer img{
+    width: 800px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==============================MEDIA QUERY============================================= */
+
+@media screen and (max-width: 600px){
+    a{
+        font-size: 10px;
+    }
+    #phone__bg {
+        padding-top: 360px;
+        width: 400px;
+        padding-left: 0px;
+    }
+    #Timo_dex {
+      display: none;
+      justify-content: none;
+    }
+    .text {
+        display:none;
+    }
+    .header {
+        min-height: 100vh;
+        width: 100%;
+        background-image: url(./images/phone\ background.png);
+        background-position: center;
+        background-size: cover;
+        background-color: black;
+        
+    }
+  
+    .more-info h3{
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+    .more-info #more {
+     padding-left: 10px;
+     padding-right: 0px;
+     padding-top: 30px;
+    }
+    .comments_section {
+        display: none;
+        justify-content: none;
+    }
+    .comments_section2 {
+        display: block;
+    }
+    .footer{
+        display:none;
+        justify-content: none;
+    }
+    .side-bar{
+        padding-bottom: 410px;
+        background-color:rgb(152, 17, 230);
+        margin-left: 0px;
+        padding-top: 350px;
+    }
+    .side-bar a:active img{
+        rotate: 360deg;
+        transition: 1s;
+    }
+    
+    .side-bar a img{
+        margin-top: 20px;
+        width: 30px;
+        
+    }
+    #form {
+        display: none;
+        justify-content: none;
+    }
+
+    #form2 {
+        display: block;
+    }
+    
+    
+    #form2 {
+        box-shadow: 0  0 100px 10px rgba(0, 0, 0, 0.301);
+        background-color: rgba(240, 248, 255, 0.849);
+        margin-left: 65px;
+        margin-right: 81px;
+        border-radius: 20px;
+        margin-top: 200px;
+        margin-bottom: 100px;
+        margin: 200px 60px;
+        padding-bottom: 100px;
+       
+    }
+    
+    #form2 h3{
+        text-align: center;
+    }
+    
+    #form2 input {
+        width: 240px;
+        height: 50px;
+        border-radius: 8px;
+        color: rgb(24, 18, 102);
+        margin:10px 20px;
+    }
+    
+    #form2 textarea {
+        width: 240px;
+        height: 150px;
+        margin-bottom: 20px;
+        border-radius: 8px;
+        color: rgb(24, 18, 102);
+        margin:10px 20px;
+
+    }
+    
+    #form2 .btn{
+        background-color: cornflowerblue;
+        width: 100px;
+        height: 50px;
+        margin-left: 90px;
+        border-radius: 8px;
+        border: 2px solid cyan;
+    }
+    .services{
+        display: none;
+        justify-content: none;
+    }
+    .services2{
+        display: block;
+    }
+    
+    .services2 {
+        margin: 50px ;
+       
+    }
+    
+    .services2 b{
+        font-weight: lighter;
+        font-size: 28px;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        /* color: black; */
+    }
+    
+    .services2 a{
+        font-size: 16px;
+    }
+    
+    #services__heading{
+        font-weight: lighter;
+        font-size: 50px;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: black;
+    }
+    
+    
+    
+    .services2 #card1 {
+        color: white;
+        border-radius: 10px;
+        background-color: crimson;
+        margin-bottom: 20px;
+        padding: 40px;
+    } 
+    .services2 #card1:hover{ box-shadow: 0  0 6px 4px rgba(0, 0, 0, 0.301);transition: 0.7s;}
+    .services2 #card1 b{ color: rgb(24, 5, 105);}
+    
+    .services2 #card2 { color: white;
+        border-radius: 10px;
+        background-color: orangered;
+        margin-bottom: 10px;
+        padding: 40px;
+    } 
+    
+    .services2 #card2:hover{ box-shadow: 0  0 6px 4px rgba(0, 0, 0, 0.301);transition: 0.7s;}
+    .services2 #card2 b{ color: rgb(165, 64, 5);}
+    
+    .services2 #card3 {
+        color: white;
+        border-radius: 10px;
+        background-color: skyblue;
+        margin-bottom: 20px;
+        padding: 40px;
+    } 
+    .services2 #card3:hover{ box-shadow: 0  0 6px 4px rgba(0, 0, 0, 0.301);transition: 0.7s;}
+    .services2 #card3 b{ color: blueviolet;}
+    
+    .services2 #card4 {
+        color: white;
+        border-radius: 10px;
+        background-color: blueviolet;
+        margin-bottom: 20px;
+        padding: 40px;
+    } 
+    .services2 #card4:hover{ box-shadow: 0  0 6px 4px rgba(0, 0, 0, 0.301); transition: 0.7s;}
+}
+
+@media screen and (max-width: 400px){
+    #form {
+        display: none;
+        justify-content: none;
+    }
+
+    #form2 {
+        display: block;
+    }
+    
+    
+    #form2 {
+        box-shadow: 0  0 100px 10px rgba(0, 0, 0, 0.301);
+        background-color: rgba(240, 248, 255, 0.849);
+        margin-left: 65px;
+        margin-right: 81px;
+        border-radius: 20px;
+        margin-top: 200px;
+        margin-bottom: 100px;
+        margin: 200px 60px;
+        padding-bottom: 100px;
+       
+    }
+    
+    #form2 h3{
+        text-align: center;
+    }
+    
+    #form2 input {
+        width: 200px;
+        height: 50px;
+        border-radius: 8px;
+        color: rgb(24, 18, 102);
+        margin:10px 20px;
+    }
+    
+    #form2 textarea {
+        width: 200px;
+        height: 150px;
+        margin-bottom: 20px;
+        border-radius: 8px;
+        color: rgb(24, 18, 102);
+        margin:10px 20px;
+
+    }
+    
+    #form2 .btn{
+        background-color: cornflowerblue;
+        width: 100px;
+        height: 50px;
+        margin-left: 70px;
+        border-radius: 8px;
+        border: 2px solid cyan;
+    }
+}
+
